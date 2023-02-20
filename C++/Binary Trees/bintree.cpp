@@ -306,6 +306,10 @@ void mirror(Node *root)
     swap(root->left, root->right);
 }
 
+//Building a tree from preorder and inorder sequence
+// int preorder[] = {1,2,4,3,5}
+// int inorder[] = {4,2,1,5,3}
+
 int main()
 {
 
